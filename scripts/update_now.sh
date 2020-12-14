@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
 
-# Send SIGHUP to updater
-pkill -1 -f selfdrive.updated
+# Stop updater
+pkill -2 -f selfdrive.updated
+
+# Remove pending update
+rm -f /data/safe_staging/finalized/.overlay_consistent
