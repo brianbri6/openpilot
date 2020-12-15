@@ -47,13 +47,13 @@ function launch {
   fi
 
   # Check for NEOS update
-  if [ $(< /VERSION) != "14" ]; then
-    if [ -f "$DIR/scripts/continue.sh" ]; then
-      cp "$DIR/scripts/continue.sh" "/data/data/com.termux/files/continue.sh"
-    fi
-     cp "$DIR/scripts/continue.sh" "/data/data/com.termux/files/continue.sh"
+ # if [ $(< /VERSION) != "14" ]; then
+  #  if [ -f "$DIR/scripts/continue.sh" ]; then
+   #   cp "$DIR/scripts/continue.sh" "/data/data/com.termux/files/continue.sh"
+  #  fi
+   #  cp "$DIR/scripts/continue.sh" "/data/data/com.termux/files/continue.sh"
     #"$DIR/installer/updater/updater" "file://$DIR/installer/updater/update.json"
-  fi
+  #fi
 
 
   # handle pythonpath
