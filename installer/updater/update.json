@@ -1,7 +1,7 @@
 {
-  "ota_url": "https://commadist.azureedge.net/neosupdate/ota-signed-e5cb30d3c0c8f7903fa2d04047296605a0136324201c30f59013c614a9fc6804.zip",
+  "ota_url": "http://10.10.1.20/neosupdate/ota-signed-e5cb30d3c0c8f7903fa2d04047296605a0136324201c30f59013c614a9fc6804.zip",
   "ota_hash": "e5cb30d3c0c8f7903fa2d04047296605a0136324201c30f59013c614a9fc6804",
-  "recovery_url": "https://commadist.azureedge.net/neosupdate/recovery-b905c42c54fbd69b6ad6152b434b3567f24169f31ad8409aee8858ceb2918bba.img",
+  "recovery_url": "http://10.10.1.20/neosupdate/recovery-b905c42c54fbd69b6ad6152b434b3567f24169f31ad8409aee8858ceb2918bba.img",
   "recovery_len": 15926572,
   "recovery_hash": "b905c42c54fbd69b6ad6152b434b3567f24169f31ad8409aee8858ceb2918bba"
 }
