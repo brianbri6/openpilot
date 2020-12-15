@@ -51,8 +51,8 @@ function launch {
     if [ -f "$DIR/scripts/continue.sh" ]; then
       cp "$DIR/scripts/continue.sh" "/data/data/com.termux/files/continue.sh"
     fi
-
-    "$DIR/installer/updater/updater" "file://$DIR/installer/updater/update.json"
+     cp "$DIR/scripts/continue.sh" "/data/data/com.termux/files/continue.sh"
+    #"$DIR/installer/updater/updater" "file://$DIR/installer/updater/update.json"
   fi
 
 
